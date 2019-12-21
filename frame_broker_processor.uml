@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.broker.processor.AbstractSendMessageProcessor</OriginalElement>
+  <nodes>
+    <node x="0.0" y="375.0">org.apache.rocketmq.broker.processor.AdminBrokerProcessor</node>
+    <node x="239.0" y="227.0">org.apache.rocketmq.broker.processor.EndTransactionProcessor</node>
+    <node x="0.0" y="301.0">org.apache.rocketmq.broker.processor.QueryMessageProcessor</node>
+    <node x="0.0" y="153.0">org.apache.rocketmq.broker.processor.ConsumerManageProcessor</node>
+    <node x="26.5" y="79.0">org.apache.rocketmq.broker.processor.SendMessageProcessor</node>
+    <node x="230.0" y="301.0">org.apache.rocketmq.broker.processor.ClientManageProcessor</node>
+    <node x="219.0" y="375.0">org.apache.rocketmq.broker.processor.PullMessageProcessor</node>
+    <node x="0.0" y="227.0">org.apache.rocketmq.broker.processor.ForwardRequestProcessor</node>
+    <node x="0.0" y="0.0">org.apache.rocketmq.broker.processor.AbstractSendMessageProcessor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.broker.processor.SendMessageProcessor" target="org.apache.rocketmq.broker.processor.AbstractSendMessageProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="116.0" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

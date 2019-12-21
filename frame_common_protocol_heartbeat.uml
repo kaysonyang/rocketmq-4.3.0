@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.common.protocol.heartbeat.ConsumerData</OriginalElement>
+  <nodes>
+    <node x="165.0" y="296.0">org.apache.rocketmq.common.protocol.heartbeat.ProducerData</node>
+    <node x="0.0" y="148.0">org.apache.rocketmq.common.protocol.heartbeat.MessageModel</node>
+    <node x="0.0" y="0.0">org.apache.rocketmq.common.protocol.heartbeat.SubscriptionData</node>
+    <node x="0.0" y="74.0">org.apache.rocketmq.common.protocol.heartbeat.ConsumerData</node>
+    <node x="0.0" y="296.0">org.apache.rocketmq.common.protocol.heartbeat.ConsumeType</node>
+    <node x="0.0" y="222.0">org.apache.rocketmq.common.protocol.heartbeat.HeartbeatData</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="61.5" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

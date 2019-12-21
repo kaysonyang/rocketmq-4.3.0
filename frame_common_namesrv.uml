@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.common.namesrv.NamesrvConfig</OriginalElement>
+  <nodes>
+    <node x="0.0" y="148.0">org.apache.rocketmq.common.namesrv.TopAddressing</node>
+    <node x="0.0" y="222.0">org.apache.rocketmq.common.namesrv.NamesrvUtil</node>
+    <node x="0.0" y="74.0">org.apache.rocketmq.common.namesrv.NamesrvConfig</node>
+    <node x="0.0" y="0.0">org.apache.rocketmq.common.namesrv.RegisterBrokerResult</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="63.5" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

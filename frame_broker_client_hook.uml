@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.client.hook.CheckForbiddenContext</OriginalElement>
+  <nodes>
+    <node x="210.0" y="296.0">org.apache.rocketmq.client.hook.SendMessageHook</node>
+    <node x="0.0" y="370.0">org.apache.rocketmq.client.hook.FilterMessageHook</node>
+    <node x="211.0" y="222.0">org.apache.rocketmq.client.hook.CheckForbiddenHook</node>
+    <node x="0.0" y="296.0">org.apache.rocketmq.client.hook.FilterMessageContext</node>
+    <node x="0.0" y="0.0">org.apache.rocketmq.client.hook.ConsumeMessageContext</node>
+    <node x="0.0" y="74.0">org.apache.rocketmq.client.hook.CheckForbiddenContext</node>
+    <node x="0.0" y="222.0">org.apache.rocketmq.client.hook.SendMessageContext</node>
+    <node x="0.0" y="148.0">org.apache.rocketmq.client.hook.ConsumeMessageHook</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="90.5" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

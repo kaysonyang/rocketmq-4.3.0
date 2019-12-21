@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.client.producer.DefaultMQProducer</OriginalElement>
+  <nodes>
+    <node x="199.0" y="306.0">org.apache.rocketmq.client.producer.SendCallback</node>
+    <node x="0.0" y="306.0">org.apache.rocketmq.client.producer.TransactionListener</node>
+    <node x="36.5" y="0.0">org.apache.rocketmq.client.producer.MQProducer</node>
+    <node x="221.0" y="232.0">org.apache.rocketmq.client.producer.LocalTransactionState</node>
+    <node x="263.5" y="0.0">org.apache.rocketmq.client.producer.SendResult</node>
+    <node x="0.0" y="158.0">org.apache.rocketmq.client.producer.TransactionMQProducer</node>
+    <node x="227.0" y="79.0">org.apache.rocketmq.client.producer.TransactionSendResult</node>
+    <node x="0.0" y="380.0">org.apache.rocketmq.client.producer.SendStatus</node>
+    <node x="0.0" y="232.0">org.apache.rocketmq.client.producer.MessageQueueSelector</node>
+    <node x="14.5" y="79.0">org.apache.rocketmq.client.producer.DefaultMQProducer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.client.producer.TransactionMQProducer" target="org.apache.rocketmq.client.producer.DefaultMQProducer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.producer.DefaultMQProducer" target="org.apache.rocketmq.client.producer.MQProducer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.producer.TransactionSendResult" target="org.apache.rocketmq.client.producer.SendResult">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="118.5" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

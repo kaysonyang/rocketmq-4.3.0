@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.common.filter.ExpressionType</OriginalElement>
+  <nodes>
+    <node x="0.0" y="227.0">org.apache.rocketmq.common.filter.MessageFilter</node>
+    <node x="0.0" y="301.0">org.apache.rocketmq.common.filter.impl.PolishExpr</node>
+    <node x="178.0" y="153.0">org.apache.rocketmq.common.filter.ExpressionType</node>
+    <node x="269.0" y="301.0">org.apache.rocketmq.common.filter.impl.Type</node>
+    <node x="0.0" y="153.0">org.apache.rocketmq.common.hook.FilterCheckHook</node>
+    <node x="161.0" y="227.0">org.apache.rocketmq.common.filter.FilterContext</node>
+    <node x="105.0" y="79.0">org.apache.rocketmq.common.filter.impl.Operator</node>
+    <node x="70.5" y="0.0">org.apache.rocketmq.common.filter.impl.Op</node>
+    <node x="142.0" y="301.0">org.apache.rocketmq.common.filter.FilterAPI</node>
+    <node x="0.0" y="79.0">org.apache.rocketmq.common.filter.impl.Operand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.common.filter.impl.Operand" target="org.apache.rocketmq.common.filter.impl.Op">
+      <point x="0.0" y="-14.5" />
+      <point x="42.5" y="54.0" />
+      <point x="83.0" y="54.0" />
+      <point x="-12.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.common.filter.impl.Operator" target="org.apache.rocketmq.common.filter.impl.Op">
+      <point x="0.0" y="-14.5" />
+      <point x="148.5" y="54.0" />
+      <point x="108.0" y="54.0" />
+      <point x="12.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="165.5" y="165.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

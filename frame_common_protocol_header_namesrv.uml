@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.common.protocol.header.namesrv.DeleteKVConfigRequestHeader</OriginalElement>
+  <nodes>
+    <node x="0.0" y="296.0">org.apache.rocketmq.common.protocol.header.namesrv.RegisterBrokerResponseHeader</node>
+    <node x="283.0" y="222.0">org.apache.rocketmq.common.protocol.header.namesrv.UnRegisterBrokerRequestHeader</node>
+    <node x="0.0" y="74.0">org.apache.rocketmq.common.protocol.header.namesrv.GetKVListByNamespaceRequestHeader</node>
+    <node x="0.0" y="518.0">org.apache.rocketmq.common.protocol.header.namesrv.PutKVConfigRequestHeader</node>
+    <node x="293.0" y="148.0">org.apache.rocketmq.common.protocol.header.namesrv.RegisterOrderTopicRequestHeader</node>
+    <node x="0.0" y="370.0">org.apache.rocketmq.common.protocol.header.namesrv.RegisterBrokerRequestHeader</node>
+    <node x="332.0" y="0.0">org.apache.rocketmq.common.protocol.header.namesrv.WipeWritePermOfBrokerRequestHeader</node>
+    <node x="262.0" y="370.0">org.apache.rocketmq.common.protocol.header.namesrv.GetKVConfigResponseHeader</node>
+    <node x="0.0" y="444.0">org.apache.rocketmq.common.protocol.header.namesrv.GetRouteInfoRequestHeader</node>
+    <node x="0.0" y="0.0">org.apache.rocketmq.common.protocol.header.namesrv.WipeWritePermOfBrokerResponseHeader</node>
+    <node x="253.0" y="444.0">org.apache.rocketmq.common.protocol.header.namesrv.GetKVConfigRequestHeader</node>
+    <node x="272.0" y="296.0">org.apache.rocketmq.common.protocol.header.namesrv.DeleteKVConfigRequestHeader</node>
+    <node x="320.0" y="74.0">org.apache.rocketmq.common.protocol.header.namesrv.DeleteTopicInNamesrvRequestHeader</node>
+    <node x="0.0" y="148.0">org.apache.rocketmq.common.protocol.header.namesrv.QueryDataVersionResponseHeader</node>
+    <node x="0.0" y="222.0">org.apache.rocketmq.common.protocol.header.namesrv.QueryDataVersionRequestHeader</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="111.5" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

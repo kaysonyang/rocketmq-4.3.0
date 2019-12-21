@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.client.ClientConfig</OriginalElement>
+  <nodes>
+    <node x="0.0" y="459.0">org.apache.rocketmq.client.consumer.MessageSelector</node>
+    <node x="175.125" y="158.0">org.apache.rocketmq.client.ClientConfig</node>
+    <node x="181.0" y="459.0">org.apache.rocketmq.client.consumer.PullTaskCallback</node>
+    <node x="238.0" y="237.0">org.apache.rocketmq.client.consumer.DefaultMQPushConsumer</node>
+    <node x="152.0" y="533.0">org.apache.rocketmq.client.consumer.PullCallback</node>
+    <node x="0.0" y="607.0">org.apache.rocketmq.client.consumer.PullResult</node>
+    <node x="537.0" y="459.0">org.apache.rocketmq.client.common.ClientErrorCode</node>
+    <node x="220.0" y="385.0">org.apache.rocketmq.client.admin.MQAdminExtInner</node>
+    <node x="173.375" y="79.0">org.apache.rocketmq.client.consumer.MQConsumer</node>
+    <node x="0.0" y="311.0">org.apache.rocketmq.client.consumer.MQPullConsumerScheduleService</node>
+    <node x="0.0" y="533.0">org.apache.rocketmq.client.QueryResult</node>
+    <node x="360.0" y="459.0">org.apache.rocketmq.client.consumer.PullTaskContext</node>
+    <node x="185.375" y="0.0">org.apache.rocketmq.client.MQAdmin</node>
+    <node x="302.0" y="533.0">org.apache.rocketmq.client.Validators</node>
+    <node x="0.0" y="158.0">org.apache.rocketmq.client.consumer.MQPullConsumer</node>
+    <node x="36.0" y="237.0">org.apache.rocketmq.client.consumer.DefaultMQPullConsumer</node>
+    <node x="408.0" y="385.0">org.apache.rocketmq.client.common.ThreadLocalIndex</node>
+    <node x="320.25" y="158.0">org.apache.rocketmq.client.consumer.MQPushConsumer</node>
+    <node x="0.0" y="385.0">org.apache.rocketmq.client.consumer.MessageQueueListener</node>
+    <node x="441.0" y="533.0">org.apache.rocketmq.client.consumer.PullStatus</node>
+    <node x="580.0" y="533.0">org.apache.rocketmq.client.MQHelper</node>
+    <node x="283.0" y="311.0">org.apache.rocketmq.client.consumer.AllocateMessageQueueStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.client.consumer.DefaultMQPushConsumer" target="org.apache.rocketmq.client.ClientConfig">
+      <point x="-47.75" y="-14.5" />
+      <point x="285.75" y="212.0" />
+      <point x="256.125" y="212.0" />
+      <point x="27.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.DefaultMQPullConsumer" target="org.apache.rocketmq.client.ClientConfig">
+      <point x="45.5" y="-14.5" />
+      <point x="172.5" y="212.0" />
+      <point x="202.125" y="212.0" />
+      <point x="-27.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.MQPullConsumer" target="org.apache.rocketmq.client.consumer.MQConsumer">
+      <point x="0.0" y="-14.5" />
+      <point x="69.0" y="133.0" />
+      <point x="202.375" y="133.0" />
+      <point x="-29.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.MQPushConsumer" target="org.apache.rocketmq.client.consumer.MQConsumer">
+      <point x="0.0" y="-14.5" />
+      <point x="393.75" y="133.0" />
+      <point x="260.375" y="133.0" />
+      <point x="29.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.DefaultMQPushConsumer" target="org.apache.rocketmq.client.consumer.MQPushConsumer">
+      <point x="47.75" y="-14.5" />
+      <point x="381.25" y="212.0" />
+      <point x="393.75" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.MQConsumer" target="org.apache.rocketmq.client.MQAdmin">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.DefaultMQPullConsumer" target="org.apache.rocketmq.client.consumer.MQPullConsumer">
+      <point x="-45.5" y="-14.5" />
+      <point x="81.5" y="212.0" />
+      <point x="69.0" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="54.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

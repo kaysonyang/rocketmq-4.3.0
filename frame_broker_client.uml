@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.broker.client.ClientChannelInfo</OriginalElement>
+  <nodes>
+    <node x="244.0" y="153.0">org.apache.rocketmq.broker.client.rebalance.RebalanceLockManager</node>
+    <node x="0.0" y="301.0">org.apache.rocketmq.broker.client.ConsumerManager</node>
+    <node x="22.0" y="0.0">org.apache.rocketmq.broker.client.ConsumerIdsChangeListener</node>
+    <node x="193.0" y="301.0">org.apache.rocketmq.broker.client.ClientChannelInfo</node>
+    <node x="0.0" y="227.0">org.apache.rocketmq.broker.client.ConsumerGroupEvent</node>
+    <node x="186.0" y="375.0">org.apache.rocketmq.broker.client.net.Broker2Client</node>
+    <node x="214.0" y="227.0">org.apache.rocketmq.broker.client.ConsumerGroupInfo</node>
+    <node x="0.0" y="153.0">org.apache.rocketmq.broker.client.ClientHousekeepingService</node>
+    <node x="0.0" y="375.0">org.apache.rocketmq.broker.client.ProducerManager</node>
+    <node x="0.0" y="79.0">org.apache.rocketmq.broker.client.DefaultConsumerIdsChangeListener</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.broker.client.DefaultConsumerIdsChangeListener" target="org.apache.rocketmq.broker.client.ConsumerIdsChangeListener">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="86.0" y="195.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

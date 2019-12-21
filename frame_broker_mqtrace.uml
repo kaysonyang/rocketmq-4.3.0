@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.broker.mqtrace.ConsumeMessageContext</OriginalElement>
+  <nodes>
+    <node x="0.0" y="148.0">org.apache.rocketmq.broker.mqtrace.SendMessageContext</node>
+    <node x="0.0" y="74.0">org.apache.rocketmq.broker.mqtrace.ConsumeMessageHook</node>
+    <node x="0.0" y="0.0">org.apache.rocketmq.broker.mqtrace.ConsumeMessageContext</node>
+    <node x="0.0" y="222.0">org.apache.rocketmq.broker.mqtrace.SendMessageHook</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="96.5" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

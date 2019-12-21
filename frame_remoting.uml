@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.remoting.ChannelEventListener</OriginalElement>
+  <nodes>
+    <node x="0.0" y="227.0">org.apache.rocketmq.remoting.ChannelEventListener</node>
+    <node x="149.0" y="79.0">org.apache.rocketmq.remoting.RemotingClient</node>
+    <node x="0.0" y="375.0">org.apache.rocketmq.remoting.annotation.CFNullable</node>
+    <node x="71.0" y="0.0">org.apache.rocketmq.remoting.RemotingService</node>
+    <node x="142.0" y="375.0">org.apache.rocketmq.remoting.annotation.CFNotNull</node>
+    <node x="282.0" y="375.0">org.apache.rocketmq.remoting.RPCHook</node>
+    <node x="332.0" y="301.0">org.apache.rocketmq.remoting.common.RemotingUtil</node>
+    <node x="168.0" y="301.0">org.apache.rocketmq.remoting.common.ServiceThread</node>
+    <node x="211.0" y="227.0">org.apache.rocketmq.remoting.common.RemotingHelper</node>
+    <node x="0.0" y="301.0">org.apache.rocketmq.remoting.InvokeCallback</node>
+    <node x="0.0" y="153.0">org.apache.rocketmq.remoting.common.SemaphoreReleaseOnlyOnce</node>
+    <node x="129.0" y="449.0">org.apache.rocketmq.remoting.common.Pair</node>
+    <node x="0.0" y="79.0">org.apache.rocketmq.remoting.RemotingServer</node>
+    <node x="0.0" y="449.0">org.apache.rocketmq.remoting.common.TlsMode</node>
+    <node x="252.0" y="153.0">org.apache.rocketmq.remoting.CommandCustomHeader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.remoting.RemotingServer" target="org.apache.rocketmq.remoting.RemotingService">
+      <point x="0.0" y="-14.5" />
+      <point x="64.5" y="54.0" />
+      <point x="104.5" y="54.0" />
+      <point x="-33.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.remoting.RemotingClient" target="org.apache.rocketmq.remoting.RemotingService">
+      <point x="0.0" y="-14.5" />
+      <point x="211.5" y="54.0" />
+      <point x="171.5" y="54.0" />
+      <point x="33.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="83.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

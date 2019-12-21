@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.client.impl.ClientRemotingProcessor</OriginalElement>
+  <nodes>
+    <node x="0.0" y="74.0">org.apache.rocketmq.client.impl.CommunicationMode</node>
+    <node x="182.0" y="222.0">org.apache.rocketmq.client.impl.MQClientAPIImpl</node>
+    <node x="0.0" y="296.0">org.apache.rocketmq.client.impl.MQAdminImpl</node>
+    <node x="0.0" y="148.0">org.apache.rocketmq.client.impl.MQClientManager</node>
+    <node x="0.0" y="0.0">org.apache.rocketmq.client.impl.ClientRemotingProcessor</node>
+    <node x="0.0" y="222.0">org.apache.rocketmq.client.impl.FindBrokerResult</node>
+    <node x="186.0" y="148.0">org.apache.rocketmq.client.impl.factory.MQClientInstance</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="163.0" y="162.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

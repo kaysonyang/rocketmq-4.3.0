@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.common.consistenthash.ConsistentHashRouter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="227.0">org.apache.rocketmq.common.consistenthash.HashFunction</node>
+    <node x="20.0" y="0.0">org.apache.rocketmq.common.consistenthash.Node</node>
+    <node x="0.0" y="79.0">org.apache.rocketmq.common.consistenthash.VirtualNode</node>
+    <node x="0.0" y="153.0">org.apache.rocketmq.common.consistenthash.ConsistentHashRouter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.common.consistenthash.VirtualNode" target="org.apache.rocketmq.common.consistenthash.Node">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="86.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

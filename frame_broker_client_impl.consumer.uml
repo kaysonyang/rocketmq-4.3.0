@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.client.impl.consumer.ConsumeMessageConcurrentlyService</OriginalElement>
+  <nodes>
+    <node x="0.0" y="533.0">org.apache.rocketmq.client.impl.consumer.ProcessQueue</node>
+    <node x="380.0" y="459.0">org.apache.rocketmq.client.impl.consumer.PullAPIWrapper</node>
+    <node x="323.0" y="533.0">org.apache.rocketmq.client.impl.consumer.PullRequest</node>
+    <node x="161.0" y="385.0">org.apache.rocketmq.client.impl.consumer.RebalancePushImpl</node>
+    <node x="166.0" y="533.0">org.apache.rocketmq.client.impl.consumer.PullResultExt</node>
+    <node x="356.0" y="306.0">org.apache.rocketmq.client.impl.consumer.MessageQueueLock</node>
+    <node x="157.75" y="0.0">org.apache.rocketmq.client.impl.consumer.ConsumeMessageService</node>
+    <node x="197.0" y="459.0">org.apache.rocketmq.client.impl.consumer.RebalanceService</node>
+    <node x="93.75" y="306.0">org.apache.rocketmq.client.impl.consumer.RebalanceImpl</node>
+    <node x="253.0" y="79.0">org.apache.rocketmq.client.impl.consumer.ConsumeMessageConcurrentlyService</node>
+    <node x="0.0" y="385.0">org.apache.rocketmq.client.impl.consumer.RebalancePullImpl</node>
+    <node x="227.0" y="232.0">org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl</node>
+    <node x="0.0" y="232.0">org.apache.rocketmq.client.impl.consumer.DefaultMQPullConsumerImpl</node>
+    <node x="0.0" y="79.0">org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyService</node>
+    <node x="0.0" y="459.0">org.apache.rocketmq.client.impl.consumer.PullMessageService</node>
+    <node x="145.75" y="153.0">org.apache.rocketmq.client.impl.consumer.MQConsumerInner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyService" target="org.apache.rocketmq.client.impl.consumer.ConsumeMessageService">
+      <point x="0.0" y="-14.5" />
+      <point x="116.5" y="54.0" />
+      <point x="204.75" y="54.0" />
+      <point x="-47.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.DefaultMQPullConsumerImpl" target="org.apache.rocketmq.client.impl.consumer.MQConsumerInner">
+      <point x="0.0" y="-14.5" />
+      <point x="103.5" y="207.0" />
+      <point x="182.5" y="207.0" />
+      <point x="-36.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.RebalancePushImpl" target="org.apache.rocketmq.client.impl.consumer.RebalanceImpl">
+      <point x="0.0" y="-14.5" />
+      <point x="236.0" y="360.0" />
+      <point x="183.0" y="360.0" />
+      <point x="29.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl" target="org.apache.rocketmq.client.impl.consumer.MQConsumerInner">
+      <point x="0.0" y="-14.5" />
+      <point x="335.0" y="207.0" />
+      <point x="256.0" y="207.0" />
+      <point x="36.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.ConsumeMessageConcurrentlyService" target="org.apache.rocketmq.client.impl.consumer.ConsumeMessageService">
+      <point x="0.0" y="-14.5" />
+      <point x="387.0" y="54.0" />
+      <point x="298.75" y="54.0" />
+      <point x="47.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.RebalancePullImpl" target="org.apache.rocketmq.client.impl.consumer.RebalanceImpl">
+      <point x="0.0" y="-14.5" />
+      <point x="70.5" y="360.0" />
+      <point x="123.5" y="360.0" />
+      <point x="-29.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="134.0" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
