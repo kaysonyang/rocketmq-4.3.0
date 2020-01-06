@@ -19,10 +19,10 @@
 <configuration>
     <appender name="DefaultAppender"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/broker_default.log</file>
+        <file>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/broker_default.log</file>
         <append>true</append>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-            <fileNamePattern>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/broker_default.%i.log.gz</fileNamePattern>
+            <fileNamePattern>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/broker_default.%i.log.gz</fileNamePattern>
             <minIndex>1</minIndex>
             <maxIndex>10</maxIndex>
         </rollingPolicy>
@@ -37,7 +37,7 @@
 
     <appender name="RocketmqBrokerAppender_inner"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/broker.log</file>
+        <file>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/broker.log</file>
         <append>true</append>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
             <fileNamePattern>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/broker.%i.log.gz</fileNamePattern>
@@ -58,10 +58,10 @@
 
     <appender name="RocketmqProtectionAppender_inner"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/protection.log</file>
+        <file>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/protection.log</file>
         <append>true</append>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-            <fileNamePattern>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/protection.%i.log.gz</fileNamePattern>
+            <fileNamePattern>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/protection.%i.log.gz</fileNamePattern>
             <minIndex>1</minIndex>
             <maxIndex>10</maxIndex>
         </rollingPolicy>
@@ -79,7 +79,7 @@
 
     <appender name="RocketmqWaterMarkAppender_inner"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/watermark.log</file>
+        <file>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/watermark.log</file>
         <append>true</append>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
             <fileNamePattern>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/watermark.%i.log.gz</fileNamePattern>
@@ -100,10 +100,10 @@
 
     <appender name="RocketmqStoreAppender_inner"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/store.log</file>
+        <file>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/store.log</file>
         <append>true</append>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-            <fileNamePattern>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/store.%i.log.gz</fileNamePattern>
+            <fileNamePattern>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/store.%i.log.gz</fileNamePattern>
             <minIndex>1</minIndex>
             <maxIndex>10</maxIndex>
         </rollingPolicy>
@@ -121,10 +121,10 @@
 
     <appender name="RocketmqRemotingAppender_inner"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/remoting.log</file>
+        <file>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/remoting.log</file>
         <append>true</append>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-            <fileNamePattern>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/remoting.%i.log.gz</fileNamePattern>
+            <fileNamePattern>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/remoting.%i.log.gz</fileNamePattern>
             <minIndex>1</minIndex>
             <maxIndex>10</maxIndex>
         </rollingPolicy>
@@ -142,10 +142,10 @@
 
     <appender name="RocketmqStoreErrorAppender_inner"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/storeerror.log</file>
+        <file>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/storeerror.log</file>
         <append>true</append>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-            <fileNamePattern>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/storeerror.%i.log.gz</fileNamePattern>
+            <fileNamePattern>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/storeerror.%i.log.gz</fileNamePattern>
             <minIndex>1</minIndex>
             <maxIndex>10</maxIndex>
         </rollingPolicy>
@@ -164,10 +164,10 @@
 
     <appender name="RocketmqTransactionAppender_inner"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/transaction.log</file>
+        <file>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/transaction.log</file>
         <append>true</append>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-            <fileNamePattern>${user.home}/logs/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/transaction.%i.log.gz</fileNamePattern>
+            <fileNamePattern>${user.home}/IdeaProjects/rocketmq-4.3.0/logs/rocketmqlogs/otherdays/transaction.%i.log.gz</fileNamePattern>
             <minIndex>1</minIndex>
             <maxIndex>10</maxIndex>
         </rollingPolicy>
